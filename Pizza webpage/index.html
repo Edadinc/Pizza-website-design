@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo"><img src="./images/logo.png" alt="logo">Chef's</a>
+        
+            <i class="fa-solid fa-bars" style="color: #fafafa;" id="menu-icon"></i>
+        
+        <ul class="navbar">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#order-online">Order Online</a>
+            </li>
+            <li>
+                <a href="#customer">Reviews</a>
+            </li>
+            <li>
+                <a href="#contact">Contact us</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <video class="video-container" muted autoplay loop>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="home-text">
+            <span>Try our special pizza</span>
+                <div class="home-btn">
+                    <a href="#order-online" class="btn">Menu</a>
+                </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+        <div class="title">
+            <h2>About Us</h2>
+        </div>
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="./images/place2.jpg" alt="place2" class="img">
+            </article>
+            <article class="about-container">
+                <!--btn container-->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="our-story">Our story</button>
+                    <button class="tab-btn" data-id="the-pizza">The pizza</button>
+                </div>
+                <article class="about-content">
+                    <!--single item-->
+                    <div class="content active" id="our-story">
+                        <h4>Our Story</h4>
+                        <p>
+                            Chef’s Pizza is not your average pizzeria. Founded in 2002, it combines quality, values and work ethic with ambiance 
+                            and award winning appeal. They always cared about the traditions, passion for excellence and commitment to quality that
+                            makes Chef’s Pizza what it is today.
+                            <p>After working in some of Italy’s finest pizzerias for years, our chefs opened their first location New York. 
+                                Refusing to use frozen dough, conveyor ovens, canned vegetables or many other shortcuts, our chefs set the 
+                                standards for their award-winning pizza.
+                            </p>
+                        </p>
+                    </div>
+                    <!--end of single item-->
+    
+                    <!--single item-->
+                    <div class="content" id="the-pizza">
+                        <h4>The Pizza</h4>
+                        <p>
+                            Today, our chefs continue to make fresh dough daily from scratch. Produce is delivered 6 days
+                            a week to ensure only the freshest ingredients possible. They use nothing but fresh toppings, 
+                            as they know there is no substitute for quality. While quality, handmade pizza created in the classic 
+                            New York tradition is the cornerstone of Chef's, the ambiance of the restaurant adds to its appeal.
+                            <p>Casual and stylish, the restaurant's a warm chic take on a contemporary vibe. Designed with 
+                                cool fixtures and unexpectedly elegant twists, this is the place you can go for a glass of wine with 
+                                friends or family.
+                            </p>
+                            <p>We encourage you to come watch our skilled artisans as they hand stretch and toss dough, show their magic
+                               while your pizza's getting prepared in a traditional brick oven.
+                            </p>
+                        </p>
+                    </div>
+                    <!--end of single item-->
+                </article>
+            </article>
+        </div>
+    </section>
+
+    <!--Order Online-->
+    <section class="order-online" id="order-online">
+        <div class="heading">
+            <h2>Take a look at our special pizzas</h2>
+        </div>
+        <div class="order-online-container">
+            <div class="order-online-box">
+                <div class="order-online-img">
+                    <img src="./images/margherita.png" alt="margherita">
+                </div>
+                <h3>Margherita</h3>
+                <h2>$ 20.0</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="order-online-box">
+                <div class="order-online-img">
+                    <img src="./images/pepperoni.png" alt="pepperoni" >
+                </div>
+                <h3>Pepperoni</h3>
+                <h2>$ 25.0</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="order-online-box">
+                <div class="order-online-img">
+                    <img src="./images/four-cheese.png" alt="four-cheese" >
+                </div>
+                <h3>Four Cheese</h3>
+                <h2>$ 26.0</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="order-online-box">
+                <div class="order-online-img">
+                    <img src="./images/mushroom.png" alt="mushroom" >
+                </div>
+                <h3>Mushroom</h3>
+                <h2>$ 24.0</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer" id="customer">
+        <div class="heading">
+            <h2>See what our customers think about us</h2>
+        </div>
+        <div class="customer-container">
+            <div class="customer-box">
+                <img src="./images/traveler.jpg" alt="traveler">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>I love Chef's pizza. Whenever I visit New York, I find myself at this restaurant, grabbing their delicious pizza</p>
+                <h2>A traveler</h2>
+            </div>
+            <div class="customer-box">
+                <img src="./images/european.jpg" alt="european">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Taste is good. I would like if they also made pasta and whatnot. Italian cuisine is rich. </p>
+                <h2>A European</h2>
+            </div>
+            <div class="customer-box">
+                <img src="./images/new-yorker.jpg" alt="new-yorker">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>They only make certain type of pizzas which is perhaps the reason they are so good at it. I love the quality.</p>
+                <h2>A new Yorker</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>You can contact us!</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <div class="address">
+                <i class="fa-solid fa-map-location-dot">
+                    <span>60 W 108th St, New York, NY 10023, USA</span>
+                </i>
+                <i class="fa-sharp fa-solid fa-phone">
+                    <span>+1 100 230 44002</span>
+                </i>
+                <i class="fa-solid fa-envelope">
+                    <span>contact@chefs.com</span>
+                </i>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(180, 53, 158)"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="color:rgb(0, 238, 255)"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook" style="color: rgb(12, 12, 169);"></i></a>
+            </div>
+            </div>
+        
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Your email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Please write your message here"></textarea>
+                <input type="button" value="Submit" class="btn">
+            </form>
+        </div>
+    </div>
+    </section>
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Chef's Pizza All Rights Reserved.</p>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
